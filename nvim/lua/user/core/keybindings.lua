@@ -29,8 +29,6 @@ key.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "move selected line up a line" })
 
 ----------------[[    PLUGIN   ]]----------------
 
--- header42
-key.set("n", "<leader>hh", "<cmd>Header42<CR>", { desc = "Insert header42" })
 -- nvim-tree
 key.set("n", "<leader>ee", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle file explorer" })
 key.set("n", "<leader>ef", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "Toggle file explorer on current file" })
