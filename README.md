@@ -1,6 +1,11 @@
 # Neovim Configuration
 
 This repository contains my personal Neovim configuration, tailored to enhance my workflow and productivity. Below is a list of plugins and features integrated into my setup:
+It's a very simple config to understand and modify to your own taste. to remove a plugin simply delete one of the file
+in the plugins folder, to add a new plugins follow the instructions of the plugins readme and create a new file in the plugins folder
+keybindings can be modified in the core folder.
+
+The keybindings are really tailored to my liking as I come from the Helix editor, but you can easily change them if you want to.
 
 ## Plugins
 
@@ -40,11 +45,22 @@ This repository contains my personal Neovim configuration, tailored to enhance m
 
 ## Installation
 
-1. Clone this repository to your local machine:
+1. Make a backup of your previous configuration
+
+```bash
+   mv ~/.config/nvim/ ~/.config/nvim.back
+   rm -rf ~/.local/share/nvim
+```
+
+2. Clone this repository to your local machine:
 
    ```bash
-   git clone <repository_url> ~/.config/nvim
+   git clone  https://github.com/pierrelgol/42-nvim.git ~/.config/nvim
    ```
+3. You will need to install a few dependencies to take full advantage of this configuration
+in order to do this I suggest you install linux version of Homebrew, to install dependencies
+such as neovim, fzf, lazygit, clangd etc. 
+** for clangd you can also use this link [clangd-binary](https://github.com/clangd/clangd/releases) **
 
 ## Usage
 
