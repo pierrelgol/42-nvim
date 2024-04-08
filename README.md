@@ -62,6 +62,13 @@ in order to do this I suggest you install linux version of Homebrew, to install 
 such as neovim, fzf, lazygit, clangd etc. 
 ** for clangd you can also use this link [clangd-binary](https://github.com/clangd/clangd/releases) **
 
+4. Optionnal but really important, In order to get the full benefit of this neovim-config, you need to install a very important dependency called [bear](https://github.com/rizsotto/Bear).
+Then you need to go in your directory of your C/Cpp project and run :
+```bash
+bear <your_compilation_command_on_a_clean_repo>
+```
+bear will generate a compilation_commands.json for you which clangd relies upon to provide the full LSP features, for example certain features of clangd might not work at all without it.
+
 ## Usage
 
 Once installed, you can start using Neovim with the enhanced features and plugins described above. Explore the various keybindings and functionalities to streamline your development workflow.
